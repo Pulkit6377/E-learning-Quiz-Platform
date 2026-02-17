@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL:"https://elearningquizplatform.vercel.app/api"
+    baseURL:"https://e-learning-quiz-platform-1mgb.onrender.com/api"
 })
 
 api.interceptors.request.use((req)=>{
