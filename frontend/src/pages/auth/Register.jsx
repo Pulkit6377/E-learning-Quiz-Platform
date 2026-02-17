@@ -29,7 +29,7 @@ export default function Register() {
     }
 
     await api.post("/auth/register", payload);
-    navigate("/login");
+    navigate("/");
   };
 
   return (
@@ -82,7 +82,7 @@ export default function Register() {
       </form>
 
       <p>
-        Already have an account? <Link to="/login">Login</Link>
+        Already have an account? <Link to="/">Login</Link>
       </p>
     </div>
   );
